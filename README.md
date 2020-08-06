@@ -4,7 +4,7 @@ Scripts for interacting with the Kinopio API
 
 ## Quick add
 
-### Install
+### Install pre-requisites
 
 ```
 % brew install httpie
@@ -12,7 +12,7 @@ Scripts for interacting with the Kinopio API
 
 ### Configure
 
-Create `.kinopio`
+Create `.kinopio` with these variables:
 
 ```
 KINOPIO_API_KEY=<find using `JSON.parse(localStorage.user).apiKey`>
